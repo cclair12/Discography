@@ -1,0 +1,150 @@
+/*===================================================
+=====================================================
+Developer: Casey Clair
+Table of Contents
+1. Global Styles
+2. Nav Styles
+3. Link Styles
+4. Page Specific Styles
+5. Banner Styles
+6. Media Queries (mobile and tablet styles)
+
+Color Palette:
+#222 Dark Grey
+#f1f1f1 White Smoke
+#fc6 Dark Yellow
+#fffedd Light Yellow
+#000 Black
+=====================================================
+====================================================*/
+
+
+
+
+
+/*========================
+1. Global Styles
+=========================*/
+html{
+  background-image: url(../_images/concert_background.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+body{
+  background: rgba(0,0,0,0.6);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  padding-top: 70px;
+}
+h1{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+footer{
+  background: #222;
+  height: 100px;
+}
+
+
+
+/*========================
+3. Nav Styles
+=========================*/
+.navbar-inverse .navbar-nav > li > a{
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+  color: #fc6;
+}
+.navbar-inverse .navbar-nav > li > a:active{
+  color: #fffedd;
+}
+
+
+/*========================
+4. Link Styles
+=========================*/
+p > a{
+  color: #fc6;
+}
+p > a:hover{
+  color: #fffedd;
+}
+p > a:active{
+  color: #fff;
+}
+ol > span > a{
+  color: #fc6;
+}
+ol > span > a:hover{
+  color: #fffedd;
+}
+ol > span > a:visited{
+  color: #fc6;
+}
+
+ol > span > a:active{
+  color: #fff;
+}
+
+/*========================
+5. Banner Styles
+=========================*/
+#banner{
+  background-image: url('../_images/banner.jpg');
+  background-position: center top;
+  background-size: cover;
+  height: 650px;
+}
+
+#banner img{
+  display: block;
+  margin-top: 150px;
+}
+.pagebreak{
+  background: #222;
+  height: 50px;
+}
+.bioimage{
+  margin-top: 4em;
+}
+#albums{
+  padding-bottom: 450px;
+}
+
+/*========================
+6. Fonts
+=========================*/
+
+/*========================
+7. Media Queries
+=========================*/
+
+/*mobile styles*/
+
+@media only screen and (max-width:480px) {
+
+body{
+  font-size: 1.7em;
+}
+h1{
+  font-size: 2.7em;
+}
+#banner{
+  height: 400px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 861px) {
+
+
+
+
+/*tablet styles*/
+
+@media only screen and (min-width:861px) {
