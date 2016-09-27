@@ -46,6 +46,9 @@ footer{
   background: #222;
   height: 100px;
 }
+section#biography,section#music,section#signup{
+  margin-bottom: 10em;
+}
 
 
 
