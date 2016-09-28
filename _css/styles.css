@@ -55,7 +55,7 @@ section h1{
 #biography h1{
   margin-top: 1.2em;
 }
-#biography p{
+#biography p,ol{
   line-height: 1.5;
 }
 #signup p{
@@ -65,6 +65,7 @@ section h1{
 section#albums{
   margin-top: 3em;
 }
+
 
 
 /*========================
