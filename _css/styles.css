@@ -85,7 +85,6 @@ section#albums{
 }
 
 
-
 /*========================
 4. Link Styles
 =========================*/
@@ -101,13 +100,12 @@ p > a:active{
 ol > span > a{
   color: #fc6;
 }
-ol > span > a:hover{
-  color: #fffedd;
-}
 ol > span > a:visited{
   color: #fc6;
 }
-
+ol > span > a:hover{
+  color: #fffedd;
+}
 ol > span > a:active{
   color: #fff;
 }
