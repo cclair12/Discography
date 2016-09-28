@@ -145,9 +145,9 @@ ol > span > a:active{
 7. Media Queries
 =========================*/
 
-/*mobile styles*/
+/*mobile styles (extra small devices)*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:768px) {
 
 body{
   font-size: 1.7em;
@@ -161,13 +161,24 @@ h1{
 
 }
 
+/*tablet styles (small devices)*/
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+ol{
+  margin-top: 1.5em;
+}
+
+/*desktop styles (medium devices)*/
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
 
 
-@media only screen and (min-width: 481px) and (max-width: 861px) {
+}
+
+/*desktop styles (large devices)*/
+
+@media only screen and (min-width: 1201px){
 
 
-
-
-/*tablet styles*/
-
-@media only screen and (min-width:861px) {
+}
