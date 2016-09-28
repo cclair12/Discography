@@ -49,6 +49,12 @@ footer{
 section#biography,section#music,section#signup{
   margin-bottom: 10em;
 }
+section h1{
+  margin-bottom: 1.2em;
+}
+#biography h1{
+  margin-top: 1.2em;
+}
 
 
 
