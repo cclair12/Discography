@@ -26,7 +26,7 @@ Color Palette:
 1. Global Styles
 =========================*/
 html{
-  background-image: url(../_images/concert_background.jpg);
+  background-image: url("../_images/concert_background.jpg");
   background-position: center center;
   background-size: cover;
 }
