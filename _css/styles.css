@@ -35,16 +35,12 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
   color: #fff;
-  padding-top: 70px;
+  padding: 70px 0 70px 0;
 }
 h1{
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 3em;
   text-align: center;
-}
-footer{
-  background: #222;
-  height: 100px;
 }
 section#biography,section#music,section#signup{
   margin-bottom: 10em;
@@ -64,6 +60,14 @@ section h1{
 }
 section#albums{
   margin-top: 3em;
+}
+footer{
+  background: #000;
+  height: 100px;
+  padding: 1.2em;
+}
+footer p{
+  text-align: center;
 }
 
 
