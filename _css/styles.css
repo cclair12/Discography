@@ -7,7 +7,8 @@ Table of Contents
 3. Link Styles
 4. Page Specific Styles
 5. Banner Styles
-6. Media Queries (mobile and tablet styles)
+6. Form Styles
+7. Media Queries (mobile and tablet styles)
 
 Color Palette:
 #222 Dark Grey
@@ -145,8 +146,17 @@ ol > span > a:active{
 }
 
 /*========================
-6. Fonts
+6. Form Styles
 =========================*/
+
+input[type=text]{
+  border-radius: 5px;
+  color: #000;
+  font-size:
+  margin: .2em;
+
+}
+
 
 /*========================
 7. Media Queries
