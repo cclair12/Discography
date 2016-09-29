@@ -154,8 +154,15 @@ input[type=text]{
   color: #000;
   font-size:
   margin: .2em;
-
 }
+input[type=submit]{
+  font-size: 1em;
+  margin-top: 1.2em;
+}
+input[type=submit]:hover{
+  background: #fc6;
+}
+
 
 
 /*========================
