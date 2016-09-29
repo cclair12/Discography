@@ -119,6 +119,19 @@ ol > span > a:hover{
 ol > span > a:active{
   color: #fff;
 }
+.black-white{
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+.black-white:hover{
+  -webkit-filter: grayscale(100%);
+}
+.img-thumbnail:hover{
+border: 1px solid #000;
+}
 
 /*========================
 5. Banner Styles
