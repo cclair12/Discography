@@ -119,6 +119,19 @@ ol > span > a:hover{
 ol > span > a:active{
   color: #fff;
 }
+.black-white{
+  -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+}
+.black-white:hover{
+  -webkit-filter: grayscale(100%);
+}
+.img-thumbnail:hover{
+border: 1px solid #000;
+}
 
 /*========================
 5. Banner Styles
@@ -182,6 +195,12 @@ h1{
 #banner{
   height: 400px;
 }
+.page-header h1{
+  font-size: 1.5em;
+}
+ol{
+  margin-top: 1.5em;
+}
 
 }
 
@@ -192,10 +211,14 @@ h1{
 ol{
   margin-top: 1.5em;
 }
+}
 
 /*desktop styles (medium devices)*/
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
+  ol{
+    margin-top: 1.5em;
+  }
 
 
 }
