@@ -31,7 +31,7 @@ html{
   background-size: cover;
 }
 body{
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,.6);
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
   color: #fff;
@@ -67,6 +67,7 @@ footer{
   padding: 1.2em;
 }
 footer p{
+  color: #515151;
   text-align: center;
 }
 
@@ -75,6 +76,10 @@ footer p{
 /*========================
 3. Nav Styles
 =========================*/
+.navbar-inverse{
+  background: #000;
+  background: rgba(0,0,0,.6);
+}
 .navbar-inverse .navbar-nav > li > a{
   color: #fff;
 }
