@@ -165,10 +165,11 @@ span a:active{
 =========================*/
 
 input[type=text]{
+
   border-radius: 5px;
   color: #000;
-  font-size:
-  margin: .2em;
+  font-size: .8em;
+  width: 50%;
 }
 input[type=submit]{
   font-size: 1em;
