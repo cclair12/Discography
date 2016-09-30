@@ -93,27 +93,42 @@
 <section id="signup" class="container">
   <h1>SIGN UP</h1>
     <p>Sign up here to receive email updates about the band!</p>
-<form>
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-12">
-  <div class="form-group">
-     <input type="text" id="firstname" placeholder="First Name">
-     <input type="text" id="lastname" placeholder="Last Name">
-  </div><!-- form group 1 -->
-  <div class="form-group">
-      <input type="text" id="address" placeholder="Address">
-      <input type="text" id="city" placeholder="City">
-  </div><!-- form group 2 -->
-  <div class="form-group">
-      <input type="text" id="state" placeholder="State">
-      <input type="text" id="zip" placeholder="Zip Code">
-  </div><!-- form group 3 -->
+<form class="form-horizontal">
 
   <div class="form-group">
-        <input type="text" id="birthday" placeholder="Birthday (mm/dd/yyyy)">
-  </div><!-- form group 5 -->
-  </div>
-<div class="col-lg-6 col-md-6 col-sm-12">
+    <label for="firstname">First Name</label>
+     <input class="form-control" type="text" id="firstname" placeholder="First Name">
+     </div><!-- form group 1 -->
+     <div class="form-group">
+     <label for="lastname">Last Name</label>
+     <input class="form-control" type="text" id="lastname" placeholder="Last Name">
+     </div><!-- form group 2 -->
+
+  <div class="form-group">
+    <label for="address">Address</label>
+    <input class="form-control" type="text" id="address" placeholder="Address">
+  </div><!-- form group 3 -->
+  <div class="form-group">
+    <label for="city">City</label>
+    <input class="form-control" type="text" id="city" placeholder="City">
+  </div><!-- form group 4 -->
+
+
+  <div class="form-group">
+    <label for="state">State</label>
+      <input class="form-control" type="text" id="state" placeholder="State">
+    </div><!-- form group 5 -->
+    <div class="form-group">
+      <label for="zip">Zip Code</label>
+      <input class="form-control" type="text" id="zip" placeholder="Zip Code">
+    </div><!-- form group 6 -->
+
+
+  <div class="form-group">
+    <label for="birthday">Birthday</label>
+    <input class="form-control" type="text" id="birthday" placeholder="mm/dd/yyyy">
+  </div><!-- form group 7 -->
+
   <div class="form-group">
         <label for="preference">Email Preference</label>
         <div class="radio">
@@ -126,21 +141,22 @@
         <input type="radio" name="preference" id="preference" value="Plain Text"> Plain Text
       </label>
     </div><!-- radio button 2 -->
+  </div><!-- form group 8 -->
 
-       <label for="terms">Terms and Conditions</label>
-        <div class="checkbox">
-        <label>
-         <input type="checkbox" name="terms" id="terms" value="Agree" checked> I have read and agree to the terms and conditions
-       </label>
-     </div>
-    </div><!-- form group 6 -->
-    </div>
-</div><!-- form row -->
+<div class="form-group">
+  <label for="terms">Terms and Conditions</label>
+   <div class="checkbox">
+  <label>
+   <input type="checkbox" name="terms" id="terms" value="Agree" checked> I have read and agree to the terms and conditions
+  </label>
+</div><!-- checkbox -->
+</div><!-- form group 9 -->
 
-      <div class="form-group-lg">
-         <label for="inputComments">Comments</label>
-         <input class="form-control" type="text" id="inputComments" placeholder="Let us know if you have any suggestions!">
-       </div>
+<div class="form-group">
+  <label for="inputComments">Comments</label>
+  <input class="form-control" type="text" id="inputComments" placeholder="Let us know if you have any suggestions!">
+</div><!-- form group 10 -->
+
 <div class="form-group">
   <div>
    <input type="submit" class="btn btn-default" value="Sign Up">
@@ -149,7 +165,7 @@
 
 
 
-</form>
+</form><!-- form -->
 </section><!-- form/sign up section -->
 
 <footer>
