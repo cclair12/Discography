@@ -165,10 +165,10 @@ span a:active{
 =========================*/
 
 input[type=text]{
+
   border-radius: 5px;
   color: #000;
-  font-size:
-  margin: .2em;
+  font-size: .8em;
 }
 input[type=submit]{
   font-size: 1em;
@@ -177,6 +177,10 @@ input[type=submit]{
 input[type=submit]:hover{
   background: #fc6;
 }
+.comments-input{
+  height: 70px;
+}
+
 
 
 
@@ -221,6 +225,9 @@ ol{
   ol{
     margin-top: 1.5em;
   }
+  .email-pref{
+    padding-top: 8em;
+  }
 
 
 }
@@ -228,6 +235,9 @@ ol{
 /*desktop styles (large devices)*/
 
 @media only screen and (min-width: 1201px){
+  .email-pref{
+    padding-top: 8em;
+  }
 
 
 }
