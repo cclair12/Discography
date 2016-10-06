@@ -27,7 +27,7 @@ Color Palette:
 1. Global Styles
 =========================*/
 html{
-  background-image: url(../_images/concert_background.JPG);
+  background-image: url(../_images/concert_background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -144,6 +144,7 @@ span a:active{
 /*========================
 5. Banner Styles
 =========================*/
+
 #banner{
   background-image: url(../_images/banner.jpg);
   background-position: center top;
@@ -197,6 +198,9 @@ input[type=submit]:hover{
 
 @media only screen and (max-width:768px) {
 
+html{
+    background-image: url(../_images/concert_background_mobile.jpg);
+}
 body{
   font-size: 1.7em;
 }
