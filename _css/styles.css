@@ -124,11 +124,25 @@ p > a:active{
 .img-thumbnail:hover{
 border: 1px solid #000;
 }
-span a{
+ol a{
   color: #fc6;
   display: block;
   margin-top: 1.2em;
 
+}
+ol a:visited{
+  color: #fc6;
+}
+ol a:hover{
+  color: #fffedd;
+}
+ol a:active{
+  color: #fff;
+}
+span a{
+  color: #fc6;
+  display: block;
+  margin-top: 1.2em;
 }
 span a:visited{
   color: #fc6;
