@@ -27,11 +27,14 @@ Color Palette:
 1. Global Styles
 =========================*/
 html{
-  background-image: url("../_images/concert_background.JPG");
+  background-image: url(../_images/concert_background.JPG);
   background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 body{
+  background: #001A58;
   background: rgba(0,0,0,.6);
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
@@ -142,7 +145,7 @@ span a:active{
 5. Banner Styles
 =========================*/
 #banner{
-  background-image: url('../_images/banner.jpg');
+  background-image: url(../_images/banner.jpg);
   background-position: center top;
   background-size: cover;
   height: 650px;
@@ -168,7 +171,6 @@ span a:active{
 =========================*/
 
 input[type=text]{
-
   border-radius: 5px;
   color: #000;
   font-size: .8em;
@@ -229,6 +231,7 @@ h2{
   font-size: 1em;
   visibility: visible;
   margin-bottom: 1em;
+}
 
 }
 
