@@ -11,11 +11,11 @@ Table of Contents
 7. Media Queries (mobile and tablet styles)
 
 Color Palette:
-#222 Dark Grey
-#f1f1f1 White Smoke
+#001A58 Dark Blue (background fallback)
 #fc6 Dark Yellow
 #fffedd Light Yellow
 #000 Black
+#515151 Grey
 =====================================================
 ====================================================*/
 
@@ -34,8 +34,8 @@ html{
   background-size: cover;
 }
 body{
-  background: #001A58;
-  background: rgba(0,0,0,.6);
+  background: #001A58; /* background fallback */
+  background: rgba(0,0,0,.6); /* background overlay */
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
   color: #fff;
@@ -156,7 +156,7 @@ span a:active{
   margin-top: 150px;
 }
 .pagebreak{
-  background: #222;
+  background: #000;
   height: 50px;
 }
 .bioimage{
