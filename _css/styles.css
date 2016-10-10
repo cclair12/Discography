@@ -5,10 +5,9 @@ Table of Contents
 1. Global Styles
 2. Nav Styles
 3. Link Styles
-4. Page Specific Styles
-5. Banner Styles
-6. Form Styles
-7. Media Queries (mobile and tablet styles)
+4. Banner Styles
+5. Form Styles
+6. Media Queries (mobile and tablet styles)
 
 Color Palette:
 #001A58 Dark Blue (background fallback)
@@ -80,7 +79,7 @@ footer p{
 }
 
 /*========================
-3. Nav Styles
+2. Nav Styles
 =========================*/
 .navbar-inverse{
   background: #000;
@@ -100,7 +99,7 @@ footer p{
 }
 
 /*========================
-4. Link Styles
+3. Link Styles
 =========================*/
 p > a{
   color: #fc6;
@@ -141,7 +140,7 @@ span a:active{
 
 
 /*========================
-5. Banner Styles
+4. Banner Styles
 =========================*/
 
 #banner{
@@ -167,7 +166,7 @@ span a:active{
 }
 
 /*========================
-6. Form Styles
+5. Form Styles
 =========================*/
 
 input[type=text]{
@@ -190,7 +189,7 @@ input[type=submit]:hover{
 
 
 /*========================
-7. Media Queries
+6. Media Queries
 =========================*/
 
 /*mobile styles (extra small devices)*/
