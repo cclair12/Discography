@@ -55,6 +55,9 @@ section#biography,section#music,section#signup{
 section h1{
   margin-bottom: 1.2em;
 }
+.bioimage{
+  margin-top: 4em;
+}
 #biography h1{
   margin-top: 1.2em;
 }
@@ -70,6 +73,9 @@ section h1{
 }
 div#albums{
   margin-top: 3em;
+}
+#albums{
+  padding-bottom: 450px;
 }
 footer{
   background: #000;
@@ -141,7 +147,6 @@ span a:active{
   color: #fff;
 }
 
-
 /*========================
 4. Banner Styles
 =========================*/
@@ -152,20 +157,9 @@ span a:active{
   background-size: cover;
   height: 650px;
 }
-
-#banner img{
-  display: block;
-  margin-top: 150px;
-}
 .pagebreak{
   background: #000;
   height: 50px;
-}
-.bioimage{
-  margin-top: 4em;
-}
-#albums{
-  padding-bottom: 450px;
 }
 
 /*========================
